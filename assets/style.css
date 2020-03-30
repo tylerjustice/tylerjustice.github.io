@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*------------------------navbar*/
+
+.p2-logo{
+    margin: 0px;
+    background-position: center;
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.navbar{
+    margin-bottom: 20px;
+}
+
+.nav-link{
+    font-size: 20px;
+    padding-left: 50px;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;  
+}
+
+/*-----------------------jumbotron*/
+
+.jumbo-1{
+    display: block;
+    margin: 20px;
+    margin-top: 100px;
+    background-color: rgba(39, 41, 44, 0.836);
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    background-color: rgb(226, 87, 6);
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#button:hover{
+    color: rgb(0, 0, 0);
+}
+
+.display-4{
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lead{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.dsc{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;  
+}
+
+.jumbo-2{
+    margin-top: 70px;
+    margin-bottom: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: none;
+    display: block;
+}
+
+.sponsors-jumbo{
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+.jumbo-top{
+    margin-top: 60px;
+}
+
+.text-style{
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text-style-2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.profile-h1{
+    font-size: 30px;
+}
+
+.sponsors-h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.jumbo-3{
+    margin: 100px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+/* ----------------------------------------background images */
+
+.bg{
+    width: 100%;
+    z-index: 0;
+}
+
+.b-background{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-2{
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 15px;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #353c41;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0px;
+}
+
+.checkerd-flag i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.checkerd-flag i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-facebook{
+    margin-left: 200px;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.general-sub{
+    text-align: center;
+}
+
+.inline-block{
+    text-align: center;
+}
+
+/* ----------------------------------------Profile cards */
+
+.card{
+    margin: 50px;
+    background-color: rgb(39, 41, 44);
+    color: #fff;
+    width: 100%;
+    z-index: 0;
+}
+
+.card-name{
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+}
+
+.card-info{
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     margin-top: 5px;
+     margin-right: 1px;
+}
+
+.card-description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-2{
+    display: inline;
+}
+
+/* ----------------------------------------Media*/
+
+@media (max-width: 400px) {
+
+    .display-4{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .sponsors-h1{
+        font-size: 20px;
+    }
+
+    .text-style{
+        font-size: 20px;
+    }
+
+    .text-style-2{
+        font-size: 20px;
+    }
+
+    .jumbo-3{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .jumbo-2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .card{
+        margin-top: 10px;
+        margin-left: 7.5px;
+    }
+
+    .profile-h1{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+}
+
+
